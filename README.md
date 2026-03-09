@@ -4,9 +4,19 @@ A dark and light theme for [Zed](https://zed.dev) based on [ngrok's Mantle desig
 
 ## Screenshots
 
+### Dark
+
 ![TypeScript in Mantle Dark](assets/screenshot-dark-typescript.png)
 
 ![Rust in Mantle Dark](assets/screenshot-dark-rust.png)
+
+### Light
+
+![TypeScript in Mantle Light](assets/screenshot-light-typescript.png)
+
+![Git diff in Mantle Light](assets/screenshot-light-diff.png)
+
+![Rust in Mantle Light](assets/screenshot-light-rust.png)
 
 ## Installation
 
