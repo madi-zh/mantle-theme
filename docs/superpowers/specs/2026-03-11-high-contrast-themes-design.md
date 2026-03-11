@@ -465,11 +465,29 @@ Accents: `#1a3fd4`, `#2e54eb`, `#15803d`, `#b45309`, `#c50008`, `#7e22ce`, `#0a7
 | panel.focused_border | #3e6ff4 | #1a3fd4 |
 | link_text.hover | #2e54eb | #1a3fd4 |
 
+## Unchanged Transparent Tokens
+
+The following tokens remain `#00000000` (fully transparent) in both HC variants, unchanged from the originals:
+
+- `border.transparent`
+- `ghost_element.background`
+- `scrollbar.track.background`
+
+## Font Style & Weight Inheritance
+
+All `font_style` and `font_weight` values are inherited verbatim from the corresponding original theme and are not repeated in the syntax tables above. The syntax tables specify only color changes. For reference, the inherited styles are:
+
+- `font_style: "italic"` on: comment, comment.doc, type.interface, variable.parameter, emphasis, predictive
+- `font_weight: 700` on: emphasis.strong
+- `font_weight: 500` on: title
+
+## Light HC Player Selection Opacity
+
+The original Light theme uses `#...26` (~15%) for player selection opacity. The Light HC variant intentionally upgrades this to `#...33` (~20%) for increased visibility, matching the Dark theme's selection opacity pattern.
+
 ## What Stays The Same
 
 - Theme JSON structure and schema version (v0.2.0)
-- Font styles (italic on comments, interfaces, parameters, emphasis)
-- Font weights (700 on emphasis.strong, 500 on title)
 - Color role assignments (which hue maps to which syntax element)
 - Player count (6) and accent count (7)
 - Semantic color roles (error=red, warning=yellow, success=green, info=blue)
